@@ -1,9 +1,0 @@
-Metadata-Version: 2.4
-Name: usb_less_file_uploader
-Version: 1.0.0
-Summary: A simple Tkinter app to upload and share files over local network.
-Author: Onyeka Nwizu
-Author-email: onwizu.ics.com
-Dynamic: author
-Dynamic: author-email
-Dynamic: summary

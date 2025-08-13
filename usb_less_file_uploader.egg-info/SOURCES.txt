@@ -1,7 +1,0 @@
-app.py
-setup.py
-usb_less_file_uploader.egg-info/PKG-INFO
-usb_less_file_uploader.egg-info/SOURCES.txt
-usb_less_file_uploader.egg-info/dependency_links.txt
-usb_less_file_uploader.egg-info/entry_points.txt
-usb_less_file_uploader.egg-info/top_level.txt
