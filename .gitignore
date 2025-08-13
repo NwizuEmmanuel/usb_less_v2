@@ -24,3 +24,7 @@ Thumbs.db
 *.log
 
 # Jupyter
+build\*
+
+# Build folders
+build/

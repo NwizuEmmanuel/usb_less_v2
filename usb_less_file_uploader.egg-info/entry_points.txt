@@ -1,0 +1,2 @@
+[gui_scripts]
+usb_less_file_uploader = app:main
