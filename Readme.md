@@ -9,10 +9,11 @@ A simple, cross-platform desktop app built with Python and Tkinter to upload mul
 - **Custom port:** Choose the port for the local server.
 - **Auto server:** The server starts automatically when the app launches and stops when the app closes.
 - **Clean UI:** Modern, user-friendly interface.
+- **Easy start:** Launch the app with `StartApp.bat` for automatic requirements checking.
 
 ## How It Works
 
-1. **Start the app:** The server starts automatically.
+1. **Start the app:** Double-click `StartApp.bat` or run it from the command line. The server starts automatically.
 2. **Upload files:** Click "Upload Files" and select files to share.
 3. **Share:** Other users can download files by visiting `http://<your-ip>:<port>` in their browser.
 4. **Stop:** Closing the app stops the server and deletes the uploaded files.
@@ -29,8 +30,11 @@ A simple, cross-platform desktop app built with Python and Tkinter to upload mul
 ```sh
 git clone https://github.com/yourusername/usb_less_v2.git
 cd usb_less_v2
-python app.py
+StartApp.bat
 ```
+
+> **Tip:**  
+> If you prefer, you can still run the app directly with `python app.py`.
 
 ### Packaging (Optional)
 
@@ -65,10 +69,10 @@ MIT
 
 ## Screenshot
 
-![screenshot](screenshot.png)
+![screenshot](screenshots/screenshot.png)
 
 ---
 
 **Note:**  
 - For best results, ensure your firewall allows incoming connections on the chosen port.
-- This app is for local
+- This app is for local network use only.
